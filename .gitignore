@@ -1,0 +1,23 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Model weights and generated training runs
+*.pt
+runs/
+
+# Generated inference images (keep the CSV report)
+severity_results/*.png
+severity_results/*.jpg
+severity_results/*.jpeg
+severity_results/*.bmp
+severity_results/*.webp
+
+# Tool and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
